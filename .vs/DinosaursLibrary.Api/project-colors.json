@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "99391ba6-4c3f-4c88-9ea7-36a13e10b54a": {
+      "ProjectGuid": "99391ba6-4c3f-4c88-9ea7-36a13e10b54a",
+      "DisplayName": "DinosaursLibrary.Api",
+      "ColorIndex": 0
+    },
+    "e35b62ba-971a-4773-bcaa-45104e8b23c3": {
+      "ProjectGuid": "e35b62ba-971a-4773-bcaa-45104e8b23c3",
+      "DisplayName": "DinosaursLibrary.Domain",
+      "ColorIndex": 1
+    },
+    "186f2385-5590-47fc-b55c-579d268222cb": {
+      "ProjectGuid": "186f2385-5590-47fc-b55c-579d268222cb",
+      "DisplayName": "DinosaursLibrary.Application",
+      "ColorIndex": 2
+    },
+    "f6eef784-5fe0-455c-99f6-10bab09b2fb7": {
+      "ProjectGuid": "f6eef784-5fe0-455c-99f6-10bab09b2fb7",
+      "DisplayName": "DinosaursLibrary.Infrastructure",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
