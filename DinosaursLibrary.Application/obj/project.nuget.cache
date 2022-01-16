@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "W1RV0gmHQAGGmufEdOctnHNOMIPnCTlfNZsvyspuoWRNm+XPOE2SCGEXQCz8E6Hl3wjkTdK6cy37dT4DTO6ajw==",
+  "dgSpecHash": "5lhr1Z+R9lvxmvGVkhkUqJhP2y2dz9+QrvXAC8tGE4JnGnrie++yr5g058PhYAy2huc5VgrjAxsywQD/wx8fOA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rodolfo\\Desktop\\PersonalProjects\\DinosaursLibrary.Api\\DinosaursLibrary.Application\\DinosaursLibrary.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rodolfo\\.nuget\\packages\\mapster\\7.2.0\\mapster.7.2.0.nupkg.sha512",
     "C:\\Users\\Rodolfo\\.nuget\\packages\\mapster.core\\1.2.0\\mapster.core.1.2.0.nupkg.sha512",
+    "C:\\Users\\Rodolfo\\.nuget\\packages\\mapster.dependencyinjection\\1.0.0\\mapster.dependencyinjection.1.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\Rodolfo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

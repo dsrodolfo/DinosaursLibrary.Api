@@ -1,23 +1,26 @@
 ﻿using DinosaursLibrary.Application.Interfaces;
 using DinosaursLibrary.Application.Models.Responses;
 using DinosaursLibrary.Infrastructure.Interfaces;
-using Mapster;
+using MapsterMapper;
 
 namespace DinosaursLibrary.Application.Services
 {
     public class DinosaurService : IDinosaurService
     {
         private readonly IDinosaurRepository _dinosaurRepository;
+        private readonly IMapper _mapper;
 
-        public DinosaurService(IDinosaurRepository dinosaurRepository)
+        public DinosaurService(IDinosaurRepository dinosaurRepository, 
+                               IMapper mapper)
         {
             _dinosaurRepository = dinosaurRepository;
+            _mapper = mapper;
         }
 
         public IEnumerable<DinosaurResponse> GetAllDinosaurs()
         {
             var  dinosaurEntities = _dinosaurRepository.GetAllDinosaurs();
-            var dinosaurResponses = dinosaurEntities.Adapt<IEnumerable<DinosaurResponse>>();
+            var dinosaurResponses = _mapper.Map<IEnumerable<DinosaurResponse>>(dinosaurEntities);
 
             return dinosaurResponses;
         }
@@ -25,7 +28,7 @@ namespace DinosaursLibrary.Application.Services
         public DinosaurResponse? GetDinosaur(int id)
         {
             var dinosaurEntity = _dinosaurRepository.GetDinosaur(id);
-            var response = dinosaurEntity.Adapt<DinosaurResponse>();
+            DinosaurResponse response = _mapper.Map<DinosaurResponse>(dinosaurEntity);
 
             return response;
         }
