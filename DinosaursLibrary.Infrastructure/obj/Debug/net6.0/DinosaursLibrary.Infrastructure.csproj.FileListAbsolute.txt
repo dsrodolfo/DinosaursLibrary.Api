@@ -1,0 +1,15 @@
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Infrastructure\bin\Debug\net6.0\DinosaursLibrary.Infrastructure.deps.json
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Infrastructure\bin\Debug\net6.0\DinosaursLibrary.Infrastructure.dll
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Infrastructure\bin\Debug\net6.0\ref\DinosaursLibrary.Infrastructure.dll
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Infrastructure\bin\Debug\net6.0\DinosaursLibrary.Infrastructure.pdb
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Infrastructure\bin\Debug\net6.0\DinosaursLibrary.Domain.dll
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Infrastructure\bin\Debug\net6.0\DinosaursLibrary.Domain.pdb
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Infrastructure\obj\Debug\net6.0\DinosaursLibrary.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Infrastructure\obj\Debug\net6.0\DinosaursLibrary.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Infrastructure\obj\Debug\net6.0\DinosaursLibrary.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Infrastructure\obj\Debug\net6.0\DinosaursLibrary.Infrastructure.AssemblyInfo.cs
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Infrastructure\obj\Debug\net6.0\DinosaursLibrary.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Infrastructure\obj\Debug\net6.0\DinosaursLibrary.Infrastructure.csproj.CopyComplete
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Infrastructure\obj\Debug\net6.0\DinosaursLibrary.Infrastructure.dll
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Infrastructure\obj\Debug\net6.0\ref\DinosaursLibrary.Infrastructure.dll
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Infrastructure\obj\Debug\net6.0\DinosaursLibrary.Infrastructure.pdb

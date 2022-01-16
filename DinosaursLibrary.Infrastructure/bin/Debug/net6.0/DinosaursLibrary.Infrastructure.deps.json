@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DinosaursLibrary.Infrastructure/1.0.0": {
+        "dependencies": {
+          "DinosaursLibrary.Domain": "1.0.0"
+        },
+        "runtime": {
+          "DinosaursLibrary.Infrastructure.dll": {}
+        }
+      },
+      "DinosaursLibrary.Domain/1.0.0": {
+        "runtime": {
+          "DinosaursLibrary.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DinosaursLibrary.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DinosaursLibrary.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

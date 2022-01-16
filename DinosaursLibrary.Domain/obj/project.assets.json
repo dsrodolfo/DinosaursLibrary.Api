@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rodolfo\\source\\repos\\DinosaursLibrary.Api\\DinosaursLibrary.Domain\\DinosaursLibrary.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Rodolfo\\Desktop\\PersonalProjects\\DinosaursLibrary.Api\\DinosaursLibrary.Domain\\DinosaursLibrary.Domain.csproj",
       "projectName": "DinosaursLibrary.Domain",
-      "projectPath": "C:\\Users\\Rodolfo\\source\\repos\\DinosaursLibrary.Api\\DinosaursLibrary.Domain\\DinosaursLibrary.Domain.csproj",
+      "projectPath": "C:\\Users\\Rodolfo\\Desktop\\PersonalProjects\\DinosaursLibrary.Api\\DinosaursLibrary.Domain\\DinosaursLibrary.Domain.csproj",
       "packagesPath": "C:\\Users\\Rodolfo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rodolfo\\source\\repos\\DinosaursLibrary.Api\\DinosaursLibrary.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Rodolfo\\Desktop\\PersonalProjects\\DinosaursLibrary.Api\\DinosaursLibrary.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,0 +1,17 @@
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Application\bin\Debug\net6.0\DinosaursLibrary.Application.deps.json
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Application\bin\Debug\net6.0\DinosaursLibrary.Application.dll
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Application\bin\Debug\net6.0\ref\DinosaursLibrary.Application.dll
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Application\bin\Debug\net6.0\DinosaursLibrary.Application.pdb
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Application\bin\Debug\net6.0\DinosaursLibrary.Domain.dll
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Application\bin\Debug\net6.0\DinosaursLibrary.Infrastructure.dll
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Application\bin\Debug\net6.0\DinosaursLibrary.Infrastructure.pdb
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Application\bin\Debug\net6.0\DinosaursLibrary.Domain.pdb
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Application\obj\Debug\net6.0\DinosaursLibrary.Application.csproj.AssemblyReference.cache
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Application\obj\Debug\net6.0\DinosaursLibrary.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Application\obj\Debug\net6.0\DinosaursLibrary.Application.AssemblyInfoInputs.cache
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Application\obj\Debug\net6.0\DinosaursLibrary.Application.AssemblyInfo.cs
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Application\obj\Debug\net6.0\DinosaursLibrary.Application.csproj.CoreCompileInputs.cache
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Application\obj\Debug\net6.0\DinosaursLibrary.Application.csproj.CopyComplete
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Application\obj\Debug\net6.0\DinosaursLibrary.Application.dll
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Application\obj\Debug\net6.0\ref\DinosaursLibrary.Application.dll
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Application\obj\Debug\net6.0\DinosaursLibrary.Application.pdb

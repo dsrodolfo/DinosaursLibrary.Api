@@ -1,43 +1,56 @@
-﻿using Microsoft.AspNetCore.Mvc;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+﻿using DinosaursLibrary.Application.Interfaces;
+using DinosaursLibrary.Application.Models.Responses;
+using Microsoft.AspNetCore.Mvc;
 
 namespace DinosaursLibrary.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class DinosaurController : ControllerBase
     {
-        // GET: api/<DinosaurController>
+        private readonly IDinosaurService _dinosaurService;
+
+        public DinosaurController(IDinosaurService dinosaurService)
+        {
+            _dinosaurService = dinosaurService;
+        }
+
         [HttpGet]
-        public IEnumerable<string> Get()
+        [Route("getAll")]
+        [ProducesResponseType(typeof(IEnumerable<DinosaurResponse>), StatusCodes.Status200OK)]
+        public IActionResult GetAll()
         {
-            return new string[] { "value1", "value2" };
+            return Ok(_dinosaurService.GetAllDinosaurs());
         }
 
-        // GET api/<DinosaurController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet]
+        [Route("get/{id}")]
+        [ProducesResponseType(typeof(DinosaurResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public IActionResult Get(int id)
         {
-            return "value";
+            var response = _dinosaurService.GetDinosaur(id);
+            IActionResult result = response != null? Ok(response) : NotFound();
+
+            return result;
         }
 
-        // POST api/<DinosaurController>
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
+        //TODO - Implement Post Request
+        //[HttpPost]
+        //public void Post([FromBody] string value)
+        //{
+        //}
 
-        // PUT api/<DinosaurController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
+        //TODO - Implement Put Request
+        //[HttpPut("{id}")]
+        //public void Put(int id, [FromBody] string value)
+        //{
+        //}
 
-        // DELETE api/<DinosaurController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+        //TODO - Implement Delete Request
+        //[HttpDelete("{id}")]
+        //public void Delete(int id)
+        //{
+        //}
     }
 }

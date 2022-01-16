@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "DinosaursLibrary.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DinosaursLibrary.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DinosaursLibrary.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DinosaursLibrary.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DinosaursLibrary.Domain/DinosaursLibrary.Domain.csproj",
+      "msbuildProject": "../DinosaursLibrary.Domain/DinosaursLibrary.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "DinosaursLibrary.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Rodolfo\\.nuget\\packages\\": {},
@@ -14,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rodolfo\\source\\repos\\DinosaursLibrary.Api\\DinosaursLibrary.Infrastructure\\DinosaursLibrary.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Rodolfo\\Desktop\\PersonalProjects\\DinosaursLibrary.Api\\DinosaursLibrary.Infrastructure\\DinosaursLibrary.Infrastructure.csproj",
       "projectName": "DinosaursLibrary.Infrastructure",
-      "projectPath": "C:\\Users\\Rodolfo\\source\\repos\\DinosaursLibrary.Api\\DinosaursLibrary.Infrastructure\\DinosaursLibrary.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Rodolfo\\Desktop\\PersonalProjects\\DinosaursLibrary.Api\\DinosaursLibrary.Infrastructure\\DinosaursLibrary.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Rodolfo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rodolfo\\source\\repos\\DinosaursLibrary.Api\\DinosaursLibrary.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Rodolfo\\Desktop\\PersonalProjects\\DinosaursLibrary.Api\\DinosaursLibrary.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -37,7 +56,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Rodolfo\\Desktop\\PersonalProjects\\DinosaursLibrary.Api\\DinosaursLibrary.Domain\\DinosaursLibrary.Domain.csproj": {
+              "projectPath": "C:\\Users\\Rodolfo\\Desktop\\PersonalProjects\\DinosaursLibrary.Api\\DinosaursLibrary.Domain\\DinosaursLibrary.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
