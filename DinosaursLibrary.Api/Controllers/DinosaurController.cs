@@ -24,12 +24,24 @@ namespace DinosaursLibrary.Api.Controllers
         }
 
         [HttpGet]
+        [Route("getAll/{name}")]
+        [ProducesResponseType(typeof(IEnumerable<DinosaurResponse>), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public IActionResult GetAllByName(string name)
+        {
+            var response = _dinosaurService.GetAllDinosaursByName(name);
+            IActionResult result = response.Any() ? Ok(response) : NotFound();
+
+            return result;
+        }
+
+        [HttpGet]
         [Route("get/{id}")]
         [ProducesResponseType(typeof(DinosaurResponse), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public IActionResult Get(int id)
         {
-            var response = _dinosaurService.GetDinosaur(id);
+            var response = _dinosaurService.GetDinosaurById(id);
             IActionResult result = response != null? Ok(response) : NotFound();
 
             return result;

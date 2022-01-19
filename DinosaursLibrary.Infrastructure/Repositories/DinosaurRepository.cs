@@ -6,9 +6,9 @@ namespace DinosaursLibrary.Infrastructure.Repositories
 {
     public class DinosaurRepository : IDinosaurRepository
     {
-        private readonly RepositoryBase _repositoryBase;
+        private readonly IRepositoryBase _repositoryBase;
 
-        public DinosaurRepository(RepositoryBase repositoryBase)
+        public DinosaurRepository(IRepositoryBase repositoryBase)
         {
             _repositoryBase = repositoryBase;
         }
@@ -21,7 +21,18 @@ namespace DinosaursLibrary.Infrastructure.Repositories
             return db.Query<DinosaurEntity>(sql);
         }
 
-        public DinosaurEntity? GetDinosaur(int id)
+        public IEnumerable<DinosaurEntity> GetAllDinosaursByName(string name)
+        {
+            using var db = _repositoryBase.DbConnection;
+            string sql = @"SELECT * FROM Dinosaur
+                           WHERE LOWER(name) LIKE CONCAT(@name, '%')";
+
+            var param = new { name = name.ToLower().Trim() };
+
+            return db.Query<DinosaurEntity>(sql, param);
+        }
+
+        public DinosaurEntity? GetDinosaurById(int id)
         {
             using var db = _repositoryBase.DbConnection;
             string sql = @"SELECT * FROM Dinosaur 

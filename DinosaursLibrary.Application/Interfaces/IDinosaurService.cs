@@ -5,6 +5,7 @@ namespace DinosaursLibrary.Application.Interfaces
     public interface IDinosaurService
     {
         IEnumerable<DinosaurResponse> GetAllDinosaurs();
-        DinosaurResponse? GetDinosaur(int id);
+        IEnumerable<DinosaurResponse> GetAllDinosaursByName(string name);
+        DinosaurResponse? GetDinosaurById(int id);
     }
 }

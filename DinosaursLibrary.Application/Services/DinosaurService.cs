@@ -19,16 +19,26 @@ namespace DinosaursLibrary.Application.Services
 
         public IEnumerable<DinosaurResponse> GetAllDinosaurs()
         {
-            var  dinosaurEntities = _dinosaurRepository.GetAllDinosaurs();
+            var dinosaurEntities = _dinosaurRepository.GetAllDinosaurs();
             var dinosaurResponses = _mapper.Map<IEnumerable<DinosaurResponse>>(dinosaurEntities);
 
             return dinosaurResponses;
         }
 
-        public DinosaurResponse? GetDinosaur(int id)
+        public IEnumerable<DinosaurResponse> GetAllDinosaursByName(string name)
         {
-            var dinosaurEntity = _dinosaurRepository.GetDinosaur(id);
-            DinosaurResponse response = _mapper.Map<DinosaurResponse>(dinosaurEntity);
+            var dinosaurEntities = _dinosaurRepository.GetAllDinosaursByName(name);
+            var dinosaurResponses = _mapper.Map<IEnumerable<DinosaurResponse>>(dinosaurEntities);
+
+            return dinosaurResponses;
+        }
+
+        public DinosaurResponse? GetDinosaurById(int id)
+        {
+            var dinosaurEntity = _dinosaurRepository.GetDinosaurById(id);
+            DinosaurResponse? response = dinosaurEntity != null ? 
+                _mapper.Map<DinosaurResponse>(dinosaurEntity) :
+                null;
 
             return response;
         }

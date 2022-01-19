@@ -5,6 +5,7 @@ namespace DinosaursLibrary.Infrastructure.Interfaces
     public interface IDinosaurRepository
     {
         IEnumerable<DinosaurEntity> GetAllDinosaurs();
-        DinosaurEntity? GetDinosaur(int id);
+        IEnumerable<DinosaurEntity> GetAllDinosaursByName(string name);
+        DinosaurEntity? GetDinosaurById(int id);
     }
 }

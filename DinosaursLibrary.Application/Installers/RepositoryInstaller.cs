@@ -8,7 +8,7 @@ namespace DinosaursLibrary.Application.Installers
     {
         public static IServiceCollection AddRepositoryServices(this IServiceCollection services)
         {
-            services.AddScoped<RepositoryBase>();
+            services.AddScoped<IRepositoryBase, RepositoryBase>();
             services.AddScoped<IDinosaurRepository, DinosaurRepository>();
 
             return services;
