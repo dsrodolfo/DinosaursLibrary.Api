@@ -1,31 +1,35 @@
-﻿using DinosaursLibrary.Domain.Entities;
-using DinosaursLibrary.Domain.Enums;
+﻿using Dapper;
+using DinosaursLibrary.Domain.Entities;
 using DinosaursLibrary.Infrastructure.Interfaces;
 
 namespace DinosaursLibrary.Infrastructure.Repositories
 {
-    public class DinosaurRepository : RepositoryBase, IDinosaurRepository
+    public class DinosaurRepository : IDinosaurRepository
     {
-        private readonly IEnumerable<DinosaurEntity> _dinosaurs = new List<DinosaurEntity>()
-        {
-            new(){ Id = 1 , Name = "Tyrannosaurus Rex", PeriodId = Period.Cretaceous, LifeExpectancy = 28 },
-            new(){ Id = 2 , Name = "Velociraptor", PeriodId = Period.Cretaceous, LifeExpectancy = 20 },
-            new(){ Id = 3 , Name = "Triceratops", PeriodId = Period.Cretaceous }
-        };
+        private readonly RepositoryBase _repositoryBase;
 
-        public DinosaurRepository()
+        public DinosaurRepository(RepositoryBase repositoryBase)
         {
-
+            _repositoryBase = repositoryBase;
         }
 
         public IEnumerable<DinosaurEntity> GetAllDinosaurs()
         {
-            return _dinosaurs.OrderBy(x => x.Name);
+            using var db = _repositoryBase.DbConnection;
+            string sql = "SELECT * FROM Dinosaur;";
+
+            return db.Query<DinosaurEntity>(sql);
         }
 
         public DinosaurEntity? GetDinosaur(int id)
         {
-            return _dinosaurs.Where(x => x.Id == id).FirstOrDefault();
+            using var db = _repositoryBase.DbConnection;
+            string sql = @"SELECT * FROM Dinosaur 
+                           WHERE id = @id;";
+
+            var param = new { id };
+
+            return db.QueryFirstOrDefault<DinosaurEntity>(sql, param);
         }
     }
 }

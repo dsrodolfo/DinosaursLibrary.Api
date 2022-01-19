@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "jAMDRCxzqhSKPVvdHW/FGiKw5nOoj/KvwMSudkTwbFiNJY7Iqhf8MDnyZw9RJJ9GmnAH9StSwKfCEt6UW2hiWA==",
+  "dgSpecHash": "BjqNlREf+lpjP1eCBGZ0xHFOenpfeLJzdiYCZs6RD9eEzI1kq6Sj1VdXZPIvsr72FQ42Oe/cKs2pmbrpeW28ww==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rodolfo\\Desktop\\PersonalProjects\\DinosaursLibrary.Api\\DinosaursLibrary.Infrastructure\\DinosaursLibrary.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Rodolfo\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\Rodolfo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Rodolfo\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Rodolfo\\.nuget\\packages\\npgsql\\6.0.2\\npgsql.6.0.2.nupkg.sha512",
+    "C:\\Users\\Rodolfo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

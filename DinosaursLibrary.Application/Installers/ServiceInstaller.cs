@@ -8,7 +8,7 @@ namespace DinosaursLibrary.Application.Installers
     {
         public static IServiceCollection AddServices(this IServiceCollection services)
         {
-            services.AddSingleton<IDinosaurService, DinosaurService>();
+            services.AddScoped<IDinosaurService, DinosaurService>();
 
             return services;
         }

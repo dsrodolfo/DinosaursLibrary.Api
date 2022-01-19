@@ -61,3 +61,5 @@ C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.
 C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Api\obj\Debug\net6.0\DinosaursLibrary.Api.csproj.CopyComplete
 C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Api\obj\Debug\net6.0\DinosaursLibrary.Api.genruntimeconfig.cache
 C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Api\bin\Debug\net6.0\Mapster.DependencyInjection.dll
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Api\bin\Debug\net6.0\Dapper.dll
+C:\Users\Rodolfo\Desktop\PersonalProjects\DinosaursLibrary.Api\DinosaursLibrary.Api\bin\Debug\net6.0\Npgsql.dll

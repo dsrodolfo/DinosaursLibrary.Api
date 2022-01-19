@@ -8,11 +8,13 @@
      <td>.NET</td>  
      <td>Swagger</td>  
 	 <td>Mapster</td>
+	 <td>Dapper</td>
   </tr>
   <tr>
      <td>10.0</td>  
      <td>6.0</td> 
      <td>6.2.3</td>  
 	 <td>7.2.0</td>
+	 <td>2.0.123</td>
   </tr>
 </table>
